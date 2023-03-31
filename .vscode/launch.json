@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug FASTAPI API 9",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/9/main.py",
+            "cwd": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/9",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug FASTAPI API 7, 8",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/7, 8/server.py",
+            "cwd": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/7, 8",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug FASTAPI API 6",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/6/server.py",
+            "cwd": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/6",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug FASTAPI API 1 ~ 6",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/1 ~ 6/server.py",
+            "cwd": "${workspaceFolder}/6-실전-프로젝트-콜렉터스/1 ~ 6",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
